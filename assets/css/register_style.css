@@ -1,0 +1,67 @@
+@font-face {
+  font-family: "AlongSanss2-BoldItalic";
+  src: url("../fonts/AlongSanss2-BoldItalic.otf");
+}
+
+@font-face {
+  font-family: "Helvetica";
+  src: url("../fonts/Helvetica.ttf");
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url("../images/backgrounds/sleep.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.wrapper {
+  text-align: center;
+  /* background-image: url("../images/backgrounds/sleep.jpeg"); */
+  background-size: cover;
+  min-width: 450px;
+}
+
+.login_box {
+  font-family: "Helvetica";
+  position: relative;
+  margin: 0 auto;
+  top: 7px;
+  width: 50%;
+  color: white;
+}
+
+.login_header {
+  font-family: "AlongSanss2-BoldItalic";
+  /* text-shadow: #000 0.5px 0.5px 3px; */
+  font-size: x-large;
+}
+
+input {
+  border: none;
+  box-sizing: border-box;
+  font-size: 16px;
+  line-height: 1.4;
+  margin: 5px;
+  padding: 11px 13px;
+  width: 400px;
+  border-bottom: none;
+  border-radius: 10px;
+}
+
+button,
+input,
+textarea {
+  font-family: var(--font-family);
+}
+
+input[type="submit"] {
+  background-color: #00b8ff;
+  border-radius: 3px;
+  font-weight: bolder;
+}
+
+.second {
+  display: none;
+}
