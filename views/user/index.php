@@ -110,7 +110,6 @@
                 <i class="fa-solid fa-arrow-down-9-1"></i>
                 </button></a>';
             }
-            
             ?>
 
             <div class="posts_area"></div>
