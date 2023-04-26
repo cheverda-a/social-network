@@ -11,26 +11,13 @@ include("../../includes/admin_header.php");
 
 <div class="search">
     <form action="../main/search.php" method="GET" name="search_form">
-        <!-- <div class="button_holder">
-            <i class="fa-solid fa-magnifying-glass"></i>
-        </div> -->
-
-        <!-- <input type="text" onkeyup="getLiveSearchPosts(this.value, ' -->
-        <!-- ')" name="q" placeholder="Search posts" autocomplete="off" id="search_text_input"> -->
 
     </form>
-
-    <!-- <div class="search_results"></div> -->
-
-    <!-- <div class="search_results_footer_empty"></div> -->
 
 </div>
 
 <div class="main_column column" style='background-color: transparent;'>
             <form id="sort_post" method="POST" action="index.php?sort=<?php $sort; ?>"> 
-                <!-- <i class="fa-solid fa-sort"></i> -->
-                <!-- <input type="checkbox" name="sort" id="sort" style='margin: 0px 0 17px 18px; color: #405368;' </?php echo ($_POST['sort'] == 'yes') ? 'checked="checked"' : '' ?>/> -->
-                <!-- <button><i class='fa-regular fa-pen-to-square'></i></button> -->
                 <label id="sort_label" for="sort" style="color: white;">Recent
                 </label>
             </form>
